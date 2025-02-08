@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 .container{
     height: 100vh;
     display: flex;
@@ -10,4 +14,37 @@
     border-radius: 10px;
     padding: 10px;
     color: rgb(184, 184, 11);
+}
+.chatContainer{
+    background-color: lightcyan;
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    box-shadow: 1px 1px 1px #dadada;
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    padding-top: 50px;
+}
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #dadada;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
+}
+section{
+    width: 60%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section h1 {
+    text-align:center;
 }
